@@ -19,11 +19,11 @@ float area2;
 float pib2;
 int turismo2;
   // Área para instruções iniciais
-  printf("~~~~~~Bem vindo ao  jogo Super Trunfo de Países e Cidades!~~~~~~\n\n Pressione ENTER para iniciar\n");
+  printf("~~~~~~Bem vindo ao  jogo Super Trunfo de Países e Cidades!~~~~~~\n\n Pressione ENTER para iniciar...\n");
   getchar();
   printf("Vamos cadastrar a carta 1! \n\n");
   printf("~~~~~~instruções~~~~~~\n\n Para nosso jogo o Brasil será dividido em oito estados, identificados pelas letras de A a H.\n Cada estado terá quatro cidades de sua escolha, numeradas de 1 a 4.\n A combinação da letra do estado e o número da cidade define o código da carta (por exemplo, A01, A02, B01, B02)\n\n");
- printf("Pressione ENTER para continuar\n");
+ printf("Pressione ENTER para continuar...\n");
   getchar();
   printf("serão eles:\n A - Acre\n B - Bahia\n C - Ceará\n D - Rio de Janeiro\n E - Espírito Santo\n F - Pernambuco\n G - Goiás\n H - São Paulo\n\n\n");
   //area para entrada dos dados da primeira carta
@@ -90,10 +90,10 @@ printf ("população:%i\n", habitantes2);
 printf ("Área:%.2f km²\n", area2);
 printf ("PIB: %.2f bilhões de reais\n", pib2);
 printf ("Número de Pontos Turísticos: %d\n\n\n", turismo2);
-printf("Agora vamos comparar as cartas! \n\n Pressione ENTER para continuar\n");
+printf("~~~~~~Agora vamos comparar as cartas!~~~~~~ \n\n Pressione ENTER para continuar...\n\n\n\n");
 getchar();
 //area para comparação das cartas
-printf("carta 1 \n\n");
+printf("~~carta 1~~ \n\n");
   printf ("Estado:%c\n", estado1);
 printf ("Código da Carta:%3s\n", codigo1);
 printf ("cidade:%s\n", cidade1);
@@ -102,7 +102,7 @@ printf ("Área:%.2f km²\n", area1);
 printf ("PIB: %.2f bilhões de reais\n", pib1);
 printf ("Número de Pontos Turísticos: %d\n\n\n", turismo1);
 
-printf("carta 2 \n\n");
+printf("~~carta 2~~ \n\n");
   printf ("Estado:%c\n", estado2);
 printf ("Código da Carta:%3s\n", codigo2);
 printf ("cidade:%s\n", cidade2);
