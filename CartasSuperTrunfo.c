@@ -5,14 +5,14 @@ int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 char estado;
 char codigo[3];
-char cidade[20] = "cubatao";
-int habitantes = 112476;
-float area = 142.9;
-float pib = 21.946;
-int turismo = 7;
+char cidade[20];
+int habitantes;
+float area;
+float pib;
+int turismo;
   // Área para entrada de dados
   printf("Bem vindo ao  jogo Super Trunfo de Países e Cidades!\n\n");
-  Printf("Vamos cadastrar a carta 1:\n");
+  printf("Vamos cadastrar a carta 1:\n");
 printf("Digite a letra do estado: \n");
     scanf("%c", &estado);
     printf("O estado é: %c\n", estado);
